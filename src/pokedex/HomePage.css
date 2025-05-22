@@ -1,0 +1,39 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.pokemon-card {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-card h3 {
+  margin: 10px 0 5px;
+}
+
+.pokemon-card p {
+  margin: 0;
+}

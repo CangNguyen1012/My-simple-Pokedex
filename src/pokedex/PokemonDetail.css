@@ -1,0 +1,104 @@
+.pokemon-detail {
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.pokemon-detail h1 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.pokemon-detail img.main-sprite {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.pokemon-detail p,
+.pokemon-detail li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.pokemon-detail ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+.pokemon-detail h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.sprites-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sprite-item {
+  width: 100px;
+  text-align: center;
+}
+
+.sprite-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.sprite-item small {
+  display: block;
+  font-size: 12px;
+  color: #555;
+  margin-top: 5px;
+  word-break: break-word;
+}
+
+.moves-list {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .pokemon-detail {
+    padding: 15px;
+  }
+
+  .sprites-grid {
+    gap: 6px;
+  }
+
+  .sprite-item {
+    width: 80px;
+  }
+
+  .sprite-item img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .main-sprite {
+    width: 120px;
+    height: 120px;
+  }
+}
